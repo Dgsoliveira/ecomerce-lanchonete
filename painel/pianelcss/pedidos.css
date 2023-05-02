@@ -1,0 +1,167 @@
+.btn {
+    width: 50%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+  }
+
+  /* Estilos para o botão de "Em Preparação" */
+  .btn-em-preparacao {
+    background-color: #28a745;
+  }
+
+  /* Estilos para o botão de "Saiu para Entrega" */
+  .btn-saiu-entrega {
+    background-color: #ffc107;
+  }
+
+  /* Estilos para o botão de "Recusado" */
+  .btn-recusado {
+    background-color: #dc3545;
+  }
+
+  /* Estilos para o botão de "Finalizado" */
+  .btn-finalizado {
+    background-color: darkblue;
+  }
+
+  
+  .container {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  /* estilos para dispositivos de largura de tela >= 600px */
+.pedidos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pedido-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  min-height: 420px;
+}
+
+.pedido-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  gap: 2px;
+}
+
+.pedido-numero {
+  font-weight: bold;
+  color: darkred;
+}
+
+.pedido-datahora {
+  color: #666;
+}
+
+.pedido-status {
+  font-weight: bold;
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pedido-detalhes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family:Helvetica, sans-serif;
+}
+
+.pedido-produtos {
+  margin-bottom: 20px;
+}
+
+.pedido-valor {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pedido-botoes{
+  display: flex;
+  
+}
+
+.dados-cliente{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+/* estilos para dispositivos de largura de tela < 600px */
+@media (max-width: 600px) {
+  .pedidos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pedido-card {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .pedido-info {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .pedido-datahora {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .pedido-detalhes {
+    width: 100%;
+  }
+}
+
+
+
+  

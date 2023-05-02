@@ -4,7 +4,7 @@ session_start();
 // Faz conexão com o banco de dados aqui
 include "../.env/conexao.php";
 require  '../vendor/autoload.php';
-$accessToken = "TEST-1472282048459445-032409-8723148853628c0116c89b140f329544-1337839420";
+$accessToken = "seu token";
 MercadoPago\SDK::setAccessToken($accessToken);
 
 // Prepara a consulta SQL para inserir os pedidos
