@@ -1,4 +1,4 @@
-# ecomerce-lanchonete
+# Ecomerce-lanchonete
 
 Este é um projeto de E-commerce de Lanchonete construído utilizando PHP nativo, MySQL, HTML, CSS e JavaScript, juntamente com um painel de administração.
 
